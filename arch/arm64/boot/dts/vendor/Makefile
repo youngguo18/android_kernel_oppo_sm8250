@@ -2,7 +2,7 @@
 # Copyright (C) 2018-2020 Oplus. All rights reserved.
 vendor := $(srctree)/$(src)
 
-subdir-y += qcom
+#subdir-y += qcom
 #oppo SM8250 project
 subdir-y += 19065
 subdir-y += 19066
