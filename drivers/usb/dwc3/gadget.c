@@ -1327,7 +1327,7 @@ static void dwc3_prepare_one_trb_sg(struct dwc3_ep *dep,
 		 */
 		if ((i == remaining - 1) || !length)
 			chain = false;
-〈
+
 		if (rem && usb_endpoint_dir_out(dep->endpoint.desc) && !chain) {
 			struct dwc3	*dwc = dep->dwc;
 			struct dwc3_trb	*trb;
